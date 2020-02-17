@@ -34,8 +34,6 @@ extra_javascript:
   - 'assets/javascripts/stack-share.js'
 extra:
   social:
-    - type: globe
-      link: http://struct.cc
     - type: github-alt
       link: https://github.com/abebars
     - type: twitter
