@@ -2,7 +2,7 @@
 
 I'm a software engineer with more than 8 years of experience in backend development and
 system architecture. I'm working as Senior Software Engineer for 
-__The New York Times__, developeing products for the Customer Care orgnization.
+__The New York Times__, developing products for the Customer Care organization.
 
 ---
 ## Tech Stack
@@ -22,4 +22,4 @@ And way more to achieve ....
 
 ---
 ##On a personal note
-I love adventure and explore new things like Home Automation, Learning new skills and Scuba Diving 
+I love adventure and explore new things like Home Automation, Learning new skills, and Scuba Diving.
