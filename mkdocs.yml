@@ -1,0 +1,94 @@
+# Project information
+site_name: 'Ahmed Bebars'
+site_description: 'Personal Website :)'
+site_author: 'Ahmed Bebars'
+site_url: 'https://abeabrs.io'
+
+# Repository
+repo_name: 'abebars/abebars.io'
+repo_url: 'https://github.com/abebars/abebars.io'
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Ahmed Bebars'
+
+# Configuration
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  logo: 'assets/images/logo.svg'
+  favicon: 'assets/images/favicon.ico'
+  feature:
+    tabs: false
+
+# Customization
+extra_css:
+  - 'assets/stylesheets/extra.css'    
+extra_javascript:
+  - 'assets/javascripts/stack-share.js'
+extra:
+  social:
+    - type: globe
+      link: http://struct.cc
+    - type: github-alt
+      link: https://github.com/abebars
+    - type: twitter
+      link: https://twitter.com/abebars88
+    - type: linkedin
+      link: https://www.linkedin.com/in/ahmedbebars/
+
+# Google Analytics
+google_analytics:
+  - 'UA-158646466-1'
+  - 'auto'
+
+# Navigation bar
+nav:
+  - About Me: index.md
+  - Stories: stories.md
+  - Talks: talks.md
+  - Let's Connect: connect.md
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+  
+# Extensions
+markdown_extensions:
+  - attr_list
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.arithmatex
