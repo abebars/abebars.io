@@ -97,7 +97,7 @@ Resources:
       - Name: !Ref 'FullDomainName'
         Type: A
         AliasTarget:
-          HostedZoneId: ZMNSWZH15CT9G
+          HostedZoneId: Z2FDTNDATAQYW2
           DNSName: !GetAtt [WebsiteCloudfront, DomainName]
 Outputs:
   BucketName:
