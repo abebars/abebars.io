@@ -1,0 +1,35 @@
+---
+kind: pipeline
+type: docker
+name: abebars-io
+
+steps:
+- name: cloud-formation-validation
+  image: robertstettner/drone-cloudformation
+  stackname: abebars-io
+  template: stack.yml
+  when:
+    event: push
+    branch: master
+
+- name: build-docs
+  image: squidfunk/mkdocs-material:3.2.0
+  commands:
+    - mkdocs build
+  when:
+    event: push
+    branch: master  
+
+- name: deploy-aws-s3
+  image: plugins/s3
+  settings:
+    bucket: my-bucket-name
+    access_key:
+      from_secret: aws_access_key_id
+    secret_key:
+      from_secret: aws_secret_access_key
+    source: site/**/*
+    target: /
+  when:
+    event: push
+    branch: master
