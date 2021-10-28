@@ -1,7 +1,7 @@
 ## Hi, I'm Ahmed
 
 I'm a software engineer with more than 8 years of experience in backend development and
-system architecture. I'm working as Senior Software Engineer for 
+system architecture. I'm working as Staff Software Engineer for 
 __The New York Times__, developing products for the Customer Care organization.
 
 ---
