@@ -12,7 +12,7 @@ steps:
     - mkdocs build
   when:
     event: push
-    branch: master
+    branch: main
 
 - name: deploy-aws-s3
   image: plugins/s3
@@ -27,4 +27,4 @@ steps:
     strip_prefix: site/
   when:
     event: push
-    branch: master
+    branch: main
