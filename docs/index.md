@@ -1,8 +1,6 @@
 ## Hi, I'm Ahmed
 
-I'm a software engineer with more than 8 years of experience in backend development and
-system architecture. I'm working as Staff Software Engineer for 
-__The New York Times__, developing products for the Customer Care organization.
+I'm a software engineer with more than 10 years of experience in backend development, system architecture, and cloud management. I'm currently working as Staff Software Engineer for __The New York Times__, where I am responsible for painting the infrastructure and the cloud operations. In my spare time, I enjoy scuba diving and spending time with my family.
 
 ---
 ## Tech Stack
